@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(170, 165, 165);
+    /* width: 15vw; */
+    position: absolute;
+    font-family: "Old Standard TT", serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+    height: 100vh;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+    
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    height: 58vh;
+    width: 80vw;
+    margin-top: 48px;
+    margin-right: 36px;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 3em;
+    font-family: "Playfair Display", serif;
+}
+.name{
+    font-size: 2.75em;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    margin-top: 35px;
+    font-size: 2em;
+    font-family: "Merriweather", serif;
+}
+.devpic{
+    padding-top: 6.67%;
+    height: 58vh;
+}
+.buttons{
+    margin-top: 35px;
+    font-size: 10px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    font-family: "Old Standard TT", serif;
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: black;
+}
+.contactform{
+    font-family: "Playfair Display", serif;
+    padding: 0 35px;
+    /* padding-top: 150px; */
+    margin: 0 88px;
+}
+.contactform h1{
+    /* text-align: center; */
+    padding: 12px 0;
+    /* font-size: 55px;
+    margin-bottom: 20px; */
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.mb-3{
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 15px;
+    color: blue;
+}
+.form-label{
+    font-size: 30px;
+}
+.form-check{
+    font-size: 25px;
+}
+.email,.phone,.form-name{
+    /* display: flex; */
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 2px;
+}
+.form-text{
+    width: 30vw;
+}
+.btn-primary{
+    padding: 9px 14px;
+    border-radius: 22px;
+    font-family: "Old Standard TT", serif;
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.contactform button:hover{
+    background-color: white;
+    color: black;
+}
+.form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogContainer{
+    margin: 24px 72px;
+}
+.blogContainer h1{
+    font-family: "Old Standard TT", serif;
+    margin: 23px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.blogItem{
+    margin: 20px;
+    font-family: "Merriweather", serif;
+}
+.blogItem h2{
+    font-size: 30px;
+}
+.blogItem p{
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+}
+.blogItem button{
+    font-family: "Old Standard TT", serif;
+}
+.blogItem button:hover{
+    background-color: white;
+    color: black;
+}
+.intro{
+    margin: 24px 72px;
+}
+.intro h2{
+    font-family: "Old Standard TT", serif;
+    margin: 12px ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.intro p{
+    font-family: "Playfair Display", serif;
+    margin: 12px;
+    font-size: 20px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.skill{
+    height: 6px;
+    width: 265px;
+    border: 2px solid black;
+}
+.hundered{
+    width: 264px;
+    background-color: red;
+}
+.seventy5{
+    width: 198px;
+    background-color: blue;
+}
+.fifty{
+    width: 132px;
+    background-color: yellow;
+}
+.servicesContainer{
+    margin: 24px 72px;
+}
+.servicesContainer h1{
+    font-family: "Old Standard TT", serif;
+    margin: 12px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.servicesContainer h2{
+    font-family: "Playfair Display", serif;
+    margin: 12px;
+    font-size: 25px;
+}
+.serviceItem{
+    display: flex;
+    flex-direction: row;
+}
+.serviceItem img{
+    margin: 10px;
+    width: 192px;
+    height: 192px;
+}
+.bi{
+    width: 35px;
+    height: 35px;
+}
+.sidebarGo{
+    transform: translate(-300px,0px);
+    position: absolute;
+}
+.hamburger{
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 190px;
+    margin-top: 10px;
+    
+}
+@media (max-width:1615px) {
+    /* *{
+    } */
+    .devpic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+    
+}
